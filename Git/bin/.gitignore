@@ -7,7 +7,6 @@ node_modules
 # Ignorar archivos relacionados con claves de una API
 .env
 
-# Ignorar archivos de configuración SASS
-.sass-cache
+
 /Divisores.class
 /E11_Divisores.class
