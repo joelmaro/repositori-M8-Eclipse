@@ -7,7 +7,7 @@ public class Divisores {
 		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Entra dos numeros :");
 		String respuesta = entrada.readLine();
-		String[]parts = respuesta.split(" ");
+		String[]parts = respuesta.split("/");
 		int[]rango = new int [2];
 		rango[0]= Integer.parseInt(parts[0]);
 		rango[1]= Integer.parseInt(parts[1]);
